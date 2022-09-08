@@ -1,0 +1,86 @@
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;}
+
+html, body{
+background: black url('quote-bg.jpg') no-repeat;
+	text-align: center;
+	color: white;
+	position: absolute;
+	background-size: cover;
+	background-position: top;
+	z-index: -2;
+	height: 100%;
+	width:100%;
+}
+
+h2{
+opacity: 0.8;
+}
+
+.first-letter {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+#container{
+padding-top: 5em;
+}
+
+#display-time{
+	top: 10px;
+	font-size: 2.6em;
+	padding-bottom: 20px;
+border-bottom: thin solid;
+opacity: 0.70;
+}
+
+#display-date{
+	top: 6px;
+color: white;
+  font-size: 1.3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+  }
+  
+#content{text-transform: normal;
+font-weight: 500;
+}
+
+p{max-width: 28em;
+  color: white;
+  font-family: "Roboto", Georgia, Garamond, serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 130%;
+  font-size: 1.9em;
+  font-variant: small-caps;
+  }
+
+button{
+outline: none;
+  padding-top: 5px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding-bottom: 5px;
+  }
+  
+  @media screen 
+ and (max-device-width: 800px) 
+  and (max-device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    p {
+      font-size: 1em;
+      }
+      }
