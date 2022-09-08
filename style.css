@@ -16,6 +16,7 @@ background: black url('quote-bg.jpg') no-repeat;
 
 h2{
 opacity: 0.8;
+margin-top: 20px;
 }
 
 .first-letter {
